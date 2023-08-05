@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+
+<style>
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.home-page-content{
+text-align:center;
+padding:200px;
+color:white;
+font-size:30px;
+}
+
+
+body {
+    background-image: url('images/23.jpg');
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav .logo{
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 70px;
+  padding-left: 110px;
+}
+nav{
+  height: 70px;
+  background: #063247;
+  box-shadow: 0 3px 15px rgba(0,0,0,.4);
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  color: white;
+  display: block;
+  padding: 0 15px;
+  line-height: 70px;
+  font-size: 18px;
+  background: #063247;
+  transition: .5s;
+}
+nav ul li a:hover,
+nav ul li a.active{
+  color: #23dbdb;
+}
+nav ul ul{
+  position: absolute;
+  top: 85px;
+  border-top: 3px solid #23dbdb;
+  opacity: 0;
+  visibility: hidden;
+}
+nav ul li:hover > ul{
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+}
+nav ul ul li{
+  width: 180px;
+  display: list-item;
+  position: relative;
+  border: 1px solid #042331;
+  border-top: none;
+}
+nav ul ul li a{
+  line-height: 50px;
+}
+nav ul ul ul{
+  border-top: none;
+}
+nav ul ul ul li{
+  position: relative;
+  top: -70px;
+  left: 150px;
+}
+nav ul ul li a i{
+  margin-left: 45px;
+}
+section{
+  background: url(bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+  .contact-section .card {
+  width: 340px;
+  height: 400px;
+  margin-bottom: 2rem;
+  }
+  .contact-section .card .card-body .card-title {
+    font-size: 2.4rem;
+    font-family: 'Raleway', sans-serif;
+    color: #4d4d4d;
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: initial;
+    position: relative;
+  }
+  .contact-section .card .card-body form label{
+    font-size: .9rem!important;
+    font-family: 'Raleway', sans-serif;
+    color: #4d4d4d;
+    font-weight: 500;
+    text-align: center;
+    text-transform: initial;
+    position: relative;
+}
+  .contact-section .card .card-body form input, textarea {
+    width: 280px;
+    background-color: #f2f2ff2!important;
+}
+
+  .card-button .submit-btn {
+    color: white;
+    background: green;
+    
+  }
+  
+  
+
+.page-footer .footer-socials {
+  background-color: #004d4d;
+}
+.page-footer .footer-copyright {
+  background-color: #003333;
+}
+
+@media (max-width: 576px) {
+  .clients-title {
+   font-size: 20px;
+  }
+  .contact-section .card {
+  width: 320px;
+  height: 390px;
+  position: relative;
+  }
+  .contact-section .card .card-body form input, textarea {
+    width: 210px;
+    background-color: #f2f2ff2!important;
+}
+
+  hr {
+    width: 100px;
+    text-align :start;
+  }
+  
+
+}
+</style>
+</head>
+<body>
+<nav>
+         <label class="logo">Organic Farming</label>
+         <ul>
+            <li><a  href="index.html">Home</a></li>
+            <li>
+               <a href="#">Products
+               <i class="fas fa-caret-down"></i>
+               </a>
+               <ul>
+                  <li>
+                     <a href="beetroot.html">Beetroot
+                     <i class="fas fa-caret-right"></i>
+                     </a>
+                     <ul>
+                        <li><a href="mbeetroot.html">more</a></li>
+                        
+                     </ul>
+                  </li>
+				 
+                  <li><a href="carrot.html">Carrot
+				   <i class="fas fa-caret-right"></i>
+				  </a>
+				  <ul>
+                        <li><a href="mcarrot.html">more</a></li>
+                        
+                     </ul>
+				  </li>
+                  <li><a href="corn.html">Corn
+				   <i class="fas fa-caret-right"></i>
+				  </a>
+				  <ul>
+                        <li><a href="mcorn.html">more</a></li>
+                        
+                     </ul>
+				  </li>
+				  <li><a  href="cauliflower.html">CauliFlower
+					 <i class="fas fa-caret-right"></i>
+					</a>
+					<ul>
+                        <li><a href="mcauliflower.html">more</a></li>
+                        
+                     </ul>
+					</li>
+                  
+				    <li><a href="cabbage.html">Cabbage
+					 <i class="fas fa-caret-right"></i>
+					</a>
+					<ul>
+                        <li><a href="mcabbage.html">more</a></li>
+                        
+                     </ul>
+					</li>
+					  <li><a href="ginger.html">Ginger
+					   <i class="fas fa-caret-right"></i>
+					  </a>
+					  <ul>
+                        <li><a href="mginger.html">more</a></li>
+                        
+                     </ul>
+					  </li>
+					    <li><a href="onion.html">Onion
+						 <i class="fas fa-caret-right"></i>
+						</a>
+						<ul>
+                        <li><a href="monion.html">more</a></li>
+                        
+                     </ul>
+						</li>
+						  <li><a href="wheat.html">Wheat
+						   <i class="fas fa-caret-right"></i>
+						  </a>
+						  <ul>
+                        <li><a href="mwheat.html">more</a></li>
+                        
+                     </ul>
+						  </li>
+               </ul>
+            </li>
+            
+            
+            
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+</ul>
+</nav>               <div class="container">
+   
+
+    
+    
+                      <h3 class="h3-responsive">Get in touch with us</h3>
+                      <hr>
+                      <h6 class="h6-responsive"><span> <i class="fa fa-envelope" aria-hidden="true"></i> </span>keerthana08014@gmail.com</h6>
+                      <h6 class="h6-responsive"><span> <i class="fa fa-envelope" aria-hidden="true"></i> </span>sivagayathri048@gmail.com</h6>
+                      <h6 class="h6-responsive"><span> <i class="fa fa-phone" aria-hidden="true"></i> </span>phone: 9392451559</h6>
+					  <h6 class="h6-responsive"><span> <i class="fa fa-phone" aria-hidden="true"></i> </span>phone: 9014510399</h6>
+                      <h6 class="h6-responsive"><span> <i class="fa fa-phone" aria-hidden="true"></i> </span>phone: 9000650808</h6>
+					</div>
+
+                    <!-- Social icons -->
+   
+
+  </div>
+
+                  </div>
+               <!-- /container -->
+                </div>
+   
+    </div>
+    <!-- /row -->
+  
+
+    </div>
+    <!-- /contact section -->
+    </div>
+    <!-- /container -->
+
+</body>
+</html>
